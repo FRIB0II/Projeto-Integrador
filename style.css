@@ -1,0 +1,13 @@
+.Cabecalho{
+    color: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 1800px;
+    height: 300px;
+}
