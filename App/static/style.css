@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background-color: tomato;
+    border: 2px solid black;
+}
+
+.rodape {
+    color: #000;
+    background-color: tomato;
+    border: 2px solid black;
+
+}
+
+.lista_cabecalho {
+    display: flex;
+    flex-direction: row;
+    list-style: none;    
+    justify-content: flex-start;
+}
+
+main {
+    margin: 12px;
+    background-color: gray;
+}
+
+li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+ul li :link{
+    color: indigo;
+}
+
+ul li :visited{
+    color: white;
+}
+
+div button :link{
+    color: indigo;
+}
+
+div button :visited{
+    color: red;
+}
+
+img{
+    width: 1800px;
+    height: 300px;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+}
+
+.legenda {
+    color: rgb(87, 85, 85);
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#login {
+    background-color: tomato;
+}
+
+#cadastro {
+    background-color: tomato;
+}
+
+#emprestimo {
+    background-color: tomato;
+}
+
+.estilo_form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
