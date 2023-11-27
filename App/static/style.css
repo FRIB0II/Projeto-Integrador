@@ -4,13 +4,13 @@ body{
 }
 
 .cabecalho {
-    background-color: tomato;
+    background-color: orange;
     border: 2px solid black;
 }
 
 .rodape {
     color: #000;
-    background-color: tomato;
+    background-color: orange;
     border: 2px solid black;
 
 }
@@ -20,11 +20,15 @@ body{
     flex-direction: row;
     list-style: none;    
     justify-content: flex-start;
+    align-items: flex-end;
 }
 
 main {
+    background-color: royalblue;
+    color: white;
     margin: 12px;
-    background-color: gray;
+    padding: 12px;
+    background-color: mauve;
 }
 
 li {
@@ -32,25 +36,25 @@ li {
     padding: 10px;
 }
 
+a {
+    padding: 6px;
+}
+
 ul li :link{
-    color: indigo;
+    color: black;
 }
 
 ul li :visited{
     color: white;
 }
 
-div button :link{
-    color: indigo;
-}
-
-div button :visited{
-    color: red;
+ul li :hover{
+    background-color: royalblue;
 }
 
 img{
-    width: 1800px;
-    height: 300px;
+    width: 80px;
+    height: 80px;
 }
 
 .logo {
@@ -60,21 +64,32 @@ img{
 }
 
 .legenda {
-    color: rgb(87, 85, 85);
+    color: black;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
 #login {
-    background-color: tomato;
+    background-color: orange;
+    color: black;
+    margin: 0;
 }
 
 #cadastro {
-    background-color: tomato;
+    background-color: orange;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    padding-left: 1%;
+    border-radius: 12px;
 }
 
 #emprestimo {
-    background-color: tomato;
+    background-color: orange;
+    color: black;
+    margin: 0;
 }
 
 .estilo_form {
